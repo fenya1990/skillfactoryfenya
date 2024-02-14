@@ -1,0 +1,20 @@
+//задание 1
+
+function countElement(){
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] , countEven = 0, countOdd = 0, countZeroes = 0;
+    
+      for (let i = 0; i < arr.length; i++){ 
+      if (arr[i] % 2 === 0){
+      countEven++;
+      } 
+      if (arr[i] % 2 !== 0){
+      countOdd++;
+      } 
+      if (arr[i] === 0){
+      countZeroes++;
+      }
+    }
+    console.log(countEven)
+    console.log(countOdd)
+    console.log(countZeroes)
+    }
