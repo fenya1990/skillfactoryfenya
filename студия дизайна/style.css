@@ -1,0 +1,368 @@
+.wrapper{
+    max-width: 1440px;
+    margin: auto;
+}
+header{
+    background-color: grey;
+    display: flex;
+
+   
+}
+.header__form{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.project{
+    color: white;
+    margin: 25px;
+
+}
+.header__nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}    
+.header__item{
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   list-style: none; 
+   justify-content: space-between;
+   gap: 30px;
+   margin-top: 25px;
+   color: white;
+}
+.header__list{
+    text-decoration: none;
+    color: white;
+}
+
+.number{
+    color: white;
+    margin-top: 25px;
+}
+.header__btn{
+    color: white;
+    background-color: antiquewhite;
+    cursor: pointer;
+    height: 37px;
+    width: 167px;
+    border-radius: 2px;
+    margin-top: 24px;
+    margin-right: 92px;
+    margin-bottom: 22px;
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.one__cont{
+    position: absolute;
+    top: 184px;
+    left: 134px;
+    right: 627px;
+    bottom: 408px;
+}
+h1{
+    color: white;
+    size: 40px;
+    text-transform: uppercase;
+}
+span{
+    color: rgb(242, 195, 108);
+    size: 40px;
+}
+.btn__one{
+    color: white;
+    background-color: rgb(237, 200, 131);
+}
+.btn__two{
+    color: white;
+    background-color: gray;
+}
+p{
+    color: white;
+    size: 22px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.two{
+    background-color: black;
+}
+.two__img{
+    width: 679px;
+    height: 483px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+h2{
+    color: orange;
+}
+h3{
+    color: orange;
+    
+}
+
+.two__nav{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}    
+.two__item{
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   list-style: none; 
+   justify-content: space-between;
+   gap: 30px;
+   margin-top: 25px;
+   margin-right: 25px;
+   color: white;
+}
+.two__list{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.two__content{
+display: flex;
+}
+
+.info-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.area{
+    width: 257px;
+    height: 100px;
+}
+.cam{
+  width: 33px;
+  height: 28px; 
+}
+.img-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: black;
+}
+.three-head{
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}.img-block1{
+    width: 817px;
+    height: 434px;
+    padding-left: 309px;
+}
+.info-three{
+    color: black;
+    text-align: center;
+    width: 681px;
+    height: 131px;
+    padding-left: 377px;
+    padding-top: 20px;
+}
+form{
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    width: 769px;
+    height: 51px;
+}
+.three-btn{
+    width: 200px;
+    height: 51px;
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+}
+.inst{
+    width: 114px;
+    height: 28px;
+    margin-left: 660px;
+    margin-bottom: 15px;
+}
+.four__img-block{
+    width: 392px;
+    height: 421px;
+    object-fit: cover;
+    position: relative;
+}
+.four__redecorating{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    background-color: white;
+}
+.types{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.redecorating{
+    color: black;
+    font-size: 25px;
+}
+.four__list{
+    line-height: 20px;
+}
+.price{
+    color: white ;
+    background-color: orange;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+.four__info{
+    display: flex;
+    flex-direction: column;
+}
+.four__price{
+    display: flex;
+    width: 240px;
+    height: 30px;
+}
+.four__info-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one-img{
+    width: 70px;
+    height: 70px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.metering{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+.num1{
+    display: flex;
+    padding-top: 100px;
+}
+.num{
+    display: flex;
+}
+.five__cont{
+    display: flex;
+    position: relative;
+}
+
+.five__fon{
+    width:100%;
+    height:100%;
+    position: relative;
+    object-fit: cover;
+    padding-top: 30px;
+  }
+.five__cont::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  
+.five__head{
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 35px;
+    z-index: 2;
+}
+.five__list{
+    position: absolute;
+    font-size: 30px;
+    line-height: 60px;
+    padding-top: 90px;
+    padding-left: 20px;
+    color: white;
+    z-index: 2;
+}
+.five__img-one{
+    height: 500px;
+    width: 354px;
+    position: absolute;
+    margin-left: 500px;
+    z-index: 2;
+}
+.five__img-two{
+    width: 354px;
+    height: 350px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 600px;
+    z-index: 2;
+}
+.five__img-three{
+    position: absolute;
+    width: 354px;
+    height: 275px;
+    margin-top: -50px;
+    margin-left: 1050px;
+    z-index: 2;
+}
+.five__img-four{
+    position: absolute;
+    width: 354px;
+    height: 525px;
+    margin-left: 1050px;
+    margin-top: 300px;
+    z-index: 2;
+}
+.six__cont{
+    margin-top: 100px;
+}
+.client{
+    color: black;
+    text-align: center;
+}
+.client-word{
+    color: black;
+}
+.client{
+    display: ;
+}
+.hand{
+    margin-left: 670px;
+    margin-top: 50px;
+}
+.our{
+    display: flex;
+}
+.seven{
+    background-color: grey;
+}
+.seven-adress{
+    color: black;
+    text-align: center;
+}
+.seven-logo{
+    margin-top: 30px;
+    margin-left: 670px;
+}
+.card{
+    margin-left: 200px;
+}
+footer{
+    background-color: gray;
+    
+}
