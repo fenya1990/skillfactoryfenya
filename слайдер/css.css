@@ -1,27 +1,69 @@
-<div class="slider">
-  <div class="slider__images">
-    <!-- Изображения слайдов с заголовками -->
-    <div class="slide">
-      <img src="image 1.png" alt="Slide 1">
-      <h2>пример 1</h2>
-      <img src="image 2.png" alt="Slide 2">
-      <h2>пример 2</h2>
-      <img src="image 3.png" alt="Slide 3">
-      <h2>пример 3</h2>
-    </div>
-  </div>
-  <div class="slider__controls">
-    <div class="slider__arrow left"></div>
-    <div class="slider__arrow right"></div>
-  </div>
-  <div class="slider__dots">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-  <div class="slider__links">
-    <a href="#" class="slider__link">Slide 1</a>
-    <a href="#" class="slider__link">Slide 2</a>
-    <a href="#" class="slider__link">Slide 3</a>
-  </div>
-</div>
+.slider {
+  position: relative;
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.slider__images {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  flex-shrink: 0;
+}
+
+.slider__controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__arrow {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.slider__links {
+  margin-top: 10px;
+}
+
+.slider__link {
+  display: inline-block;
+  margin-right: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.slider__link.active {
+  font-weight: bold;
+}
